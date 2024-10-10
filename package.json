@@ -1,0 +1,17 @@
+
+{
+  "name": "@tersed/classes",
+  "version": "1.0.0",
+  "description": "A no-nonsense alternative to classNames for combining CSS class names.",
+  "main": "dist/classes.umd.js",
+  "module": "dist/classes.es.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8",
+    "vitest": "^2.1.2"
+  }
+}
