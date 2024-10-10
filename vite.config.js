@@ -6,16 +6,9 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: "./classes.js",
-      name: "classes",
-      fileName: (format) => `classes.${format}.js`,
-    },
-    rollupOptions: {
-      external: [],
-      output: {
-        globals: {},
-      },
-    },
-    target: "es2015",
+      entry: './src/classes.js', // The main file for your package
+      name: 'classes',
+      fileName: (format) => `classes.${format}.js`
+    }
   }
 });
