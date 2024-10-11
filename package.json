@@ -1,15 +1,15 @@
 {
   "name": "@tersed/classes",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A no-nonsense alternative to classNames for combining CSS class names.",
   "author": "Jonathan Quispe",
-  "main": "dist/classes.umd.js",
-  "module": "dist/classes.es.js",
+  "main": "dist/classes.umd.cjs",
+  "module": "dist/classes.js",
   "types": "dist/classes.d.ts",
   "exports": {
     "types": "./dist/classes.d.ts",
-    "import": "./dist/classes.es.js",
-    "require": "./dist/classes.umd.js"
+    "import": "./dist/classes.js",
+    "require": "./dist/classes.umd.cjs"
   },
   "type": "module",
   "scripts": {

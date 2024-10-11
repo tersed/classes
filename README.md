@@ -2,7 +2,13 @@
 
 A no-nonsense alternative to `classNames` for combining CSS class names. This utility strips away unnecessary complexity and keeps things straightforward: it **just concatenates non-empty strings**—nothing more.
 
-No conditional object-based class mapping, no flattened arrays, Just simplicity.
+No conditional object-based class mapping, no automatic array flattening—just pure simplicity.
+
+## Install
+
+```sh
+npm install @tersed/classes
+```
 
 ## The Code
 
