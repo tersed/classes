@@ -1,5 +1,5 @@
 import { expect } from "vitest";
-import { classes } from "./classes.ts";
+import { classes } from "./classes";
 
 test("classes", () => {
   expect(classes()).toBe("");
